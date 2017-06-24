@@ -6,7 +6,7 @@
 /*   By: cluciani <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/09/26 14:28:13 by cluciani          #+#    #+#             */
-/*   Updated: 2017/04/25 17:24:55 by tcuer            ###   ########.fr       */
+/*   Updated: 2017/06/24 18:56:29 by tcuer            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include "libft.h"
 # include <fcntl.h>
 # include <math.h>
-# include "mlx.h"
+# include "../minilibx_macos/mlx.h"
 # include "parse.h"
 # include "get_next_line.h"
 # define WIDTH 1024

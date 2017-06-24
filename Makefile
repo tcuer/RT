@@ -6,7 +6,7 @@
 #    By: cluciani <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/06 11:48:02 by cluciani          #+#    #+#              #
-#    Updated: 2017/05/03 18:07:45 by tcuer            ###   ########.fr        #
+#    Updated: 2017/06/24 18:56:00 by tcuer            ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -32,7 +32,7 @@ INCDIR = ./includes/ ./libft/
 
 OBJ = $(SRC:.c=.o)
 
-MLIBX = -lmlx -framework OpenGL -framework AppKit
+MLIBX = ./minilibx_macos/libmlx.a -framework OpenGL -framework AppKit
 LIBFT = -Llibft/ -lft
 
 LIBP =	$(addprefix -L, $(LIBNAME)/)
