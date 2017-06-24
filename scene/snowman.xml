@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<scene>
+	<camera>
+		<pos x="0.0" y="0.0" z="0.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<ambient a="0.3"/>
+	</camera>
+	<light>
+		<type name="spot"/>
+		<pos x="0.0" y="0.0" z="100.0"/>
+		<color r="0" g="0" b="0"/>
+		<intensity i="0.0"/>
+	</light>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="50.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="60.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/neige.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="-20.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="40.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/neige.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="-70.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="20.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/neige.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="5.0" y="-70.0" z="1400.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="0" b="0"/>
+		<radius r="3.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-5.0" y="-70.0" z="1400.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="0" b="0"/>
+		<radius r="3.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="10.0" z="1400.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="0" b="0"/>
+		<radius r="4.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="-10.0" z="1400.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="0" b="0"/>
+		<radius r="4.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="-30.0" z="1400.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="0" b="0"/>
+		<radius r="4.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+	</object>
+	<object>
+		<type name="cone"/>
+		<pos x="0.0" y="-70.0" z="1400.0"/>
+		<dir x="0.0" y="1.0" z="0.0"/>
+		<color r="0" g="0" b="0"/>
+		<radius r="6.0"/>
+		<simple s="1"/>
+		<length s="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-70.0" y="-40.0" z="1600.0"/>
+		<dir x="1.0" y="1.0" z="0.0"/>
+		<color r="139" g="69" b="19"/>
+		<radius r="5.0"/>
+		<length s="70"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="70.0" y="-40.0" z="1600.0"/>
+		<dir x="-1.0" y="1.0" z="0.0"/>
+		<color r="139" g="69" b="19"/>
+		<radius r="5.0"/>
+		<length s="70"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="0.0" y="0.0" z="4200.0"/>
+		<dir x="0.0" y="0.0" z="-1.0"/>
+		<color r="255" g="255" b="255"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<freq f="0"/>
+		<path2 p="./t/norm_zoo.xpm"/>
+		<hole h="0"/>
+	</object>
+</scene>

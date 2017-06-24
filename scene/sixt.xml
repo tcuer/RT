@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<scene>
+	<camera>
+		<pos x="0.0" y="0.0" z="0.0"/>
+		<dir x="0.0" y="0.0" z="1.0"/>
+		<ambient a="0.2"/>
+	</camera>
+	<light>
+		<type name="spot"/>
+		<pos x="0.0" y="0.0" z="-500.0"/>
+		<color r="234" g="0" b="0"/>
+		<intensity i="1.5"/>
+	</light>
+	<object>
+		<type name="sphere"/>
+		<pos x="250.0" y="150.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="255" b="0"/>
+		<radius r="110"/>
+		<reflexion r="0.0"/>
+		<freq f="0"/>
+		<refraction r="0.0"/>
+		<path p="./t/losange.xpm"/>
+		<path2 p="./t/norm_losane.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="250.0" y="-150.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="255" b="0"/>
+		<radius r="110"/>
+		<reflexion r="0.0"/>
+		<freq f="0"/>
+		<refraction r="0.0"/>
+		<path p="./t/lacets.xpm"/>
+		<path2 p="./t/norm_lacets.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="150.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="255" b="0"/>
+		<radius r="110"/>
+		<reflexion r="0.0"/>
+		<freq f="0"/>
+		<refraction r="0.0"/>
+		<path p="./t/gay.xpm"/>
+		<path2 p="./t/norm_wow.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="-150.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="255" b="0"/>
+		<radius r="110"/>
+		<reflexion r="0.0"/>
+		<freq f="0"/>
+		<refraction r="0.0"/>
+		<path p="./t/plante.xpm"/>
+		<path2 p="./t/norm_plante.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-250.0" y="150.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="255"/>
+		<radius r="110"/>
+		<reflexion r="0.0"/>
+		<freq f="10"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-250.0" y="-150.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="255" b="0"/>
+		<radius r="110"/>
+		<reflexion r="0.0"/>
+		<freq f="20"/>
+		<path p="./t/mfade.xpm"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="0.0" y="0.0" z="2500.0"/>
+		<dir x="0.0" y="0.0" z="-1.0"/>
+		<color r="224" g="224" b="224"/>
+		<hole x="0"/>
+		<freq f="0"/>
+		<reflexion r="0"/>
+		<refraction r="0.0"/>
+		<path p="./t/mfade.xpm"/>
+		<path2 p="./t/norm_zoo.xpm"/>
+	</object>
+</scene>

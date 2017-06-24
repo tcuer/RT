@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<scene>
+	<camera>
+		<pos x="0.0" y="0.0" z="0.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<ambient a="0.3"/>
+	</camera>
+	<light>
+		<type name="spot"/>
+		<pos x="500.0" y="-1000.0" z="100.0"/>
+		<color r="0" g="0" b="0"/>
+		<intensity i="3.0"/>
+	</light>
+	<object>
+		<type name="cylinder"/>
+		<pos x="200.0" y="0.0" z="800.0"/>
+		<dir x="0.0" y="-1.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="20.0"/>
+		<length l="0"/>
+		<freq f="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path p="./t/stone2.xpm"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="200.0" y="0.0" z="1100.0"/>
+		<dir x="0.0" y="-1.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="20.0"/>
+		<length l="0"/>
+		<freq f="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path p="./t/stone2.xpm"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="200.0" y="0.0" z="1400.0"/>
+		<dir x="0.0" y="-1.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="20.0"/>
+		<length l="0"/>
+		<freq f="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path p="./t/stone2.xpm"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-200.0" y="0.0" z="800.0"/>
+		<dir x="0.0" y="-1.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="20.0"/>
+		<length l="0"/>
+		<freq f="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path p="./t/stone2.xpm"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-200.0" y="0.0" z="1100.0"/>
+		<dir x="0.0" y="-1.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="20.0"/>
+		<length l="0"/>
+		<freq f="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path p="./t/stone2.xpm"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-200.0" y="0.0" z="1400.0"/>
+		<dir x="0.0" y="-1.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="20.0"/>
+		<length l="0"/>
+		<freq f="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path p="./t/stone2.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="105.0" y="70.0" z="1000.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="30"/>
+		<freq f="0"/>
+		<reflexion r="0.0"/>
+		<refraction r="1.0"/>
+		<path p="./t/bs.xpm"/>
+		<path2 p="./t/nrom-stone.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-105.0" y="70.0" z="1000.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="30"/>
+		<freq f="0"/>
+		<reflexion r="0.0"/>
+		<refraction r="1.0"/>
+		<path p="./t/bs.xpm"/>
+		<path2 p="./t/nrom-stone.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="70.0" z="800.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="30"/>
+		<freq f="0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path p="./t/map.xpm"/>
+		<path2 p="./t/normal-carreau.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="0.0" z="1000.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="255"/>
+		<radius r="100"/>
+		<reflexion r="0.4"/>
+		<refraction r="0.0"/>
+		<freq f="0"/>
+		<path p="./t/mp.xpm"/>
+		<path2 p="./t/nmal-carreau.xpm"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="1.0" y="1.0" z="3000.0"/>
+		<dir x="0.0" y="0.0" z="-1.0"/>
+		<color r="224" g="224" b="224"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<hole s="0"/>
+		<freq f="0"/>
+		<path p="t/metal3.xpm"/>
+		<path2 p="t/normal_metal.xpm"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="1.0" y="100.0" z="1.0"/>
+		<dir x="0.0" y="-1.0" z="0.0"/>
+		<color r="0" g="0" b="200"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<hole s="0"/>
+		<freq f="0"/>
+		<path p="t/metal.xpm"/>
+	</object>
+</scene>

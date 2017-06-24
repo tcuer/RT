@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<scene>
+	<camera>
+		<pos x="0.0" y="0.0" z="0.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<ambient a="0.3"/>
+	</camera>
+	<light>
+		<type name="spot"/>
+		<pos x="100.0" y="50.0" z="100.0"/>
+		<color r="0" g="0" b="0"/>
+		<intensity i="0.0"/>
+	</light>
+	<light>
+		<type name="spot"/>
+		<pos x="-100.0" y="50.0" z="100.0"/>
+		<color r="0" g="0" b="0"/>
+		<intensity i="0.0"/>
+	</light>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="0.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="100.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/sun.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-110.0" y="0.0" z="1300.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="15.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/mercure.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="120.0" y="50.0" z="1300.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="23.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/venus.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-130.0" y="70.0" z="1300.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="25.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/terre.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="160.0" z="1300.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="20.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/mars.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-150.0" y="-550.0" z="3700.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="100.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/jupiter.xpm"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-150.0" y="-550.0" z="3700.0"/>
+		<dir x="0.0" y="1.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="120.0"/>
+		<length l="10"/>
+		<freq f="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path p="./t/ann.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="500.0" y="-450.0" z="3700.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="90.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/saturn.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-400.0" y="350.0" z="2200.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="50.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/uranus.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="550.0" y="400.0" z="2200.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="50.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/neptune.xpm"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="0.0" y="0.0" z="4200.0"/>
+		<dir x="0.0" y="0.0" z="-1.0"/>
+		<color r="255" g="255" b="0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<freq f="0"/>
+		<path p="./t/espace.xpm"/>
+		<hole h="0"/>
+	</object>
+</scene>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<scene>
+	<camera>
+		<pos x="0.0" y="0.0" z="0.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<ambient a="0.3"/>
+	</camera>
+	<light>
+		<type name="spot"/>
+		<pos x="100.0" y="50.0" z="100.0"/>
+		<color r="0" g="0" b="0"/>
+		<intensity i="0.0"/>
+	</light>
+	<light>
+		<type name="spot"/>
+		<pos x="-100.0" y="50.0" z="100.0"/>
+		<color r="0" g="0" b="0"/>
+		<intensity i="0.0"/>
+	</light>
+	<object>
+		<type name="sphere"/>
+		<pos x="-300.0" y="0.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="100.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/cluciani.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-100.0" y="0.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="100.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/mriviere.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="100.0" y="0.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="100.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/tcuer.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="300.0" y="0.0" z="1500.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="100.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0"/>
+		<freq f="0"/>
+		<path p="./t/wmartine.xpm"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="0.0" y="0.0" z="4200.0"/>
+		<dir x="0.0" y="0.0" z="-1.0"/>
+		<color r="255" g="255" b="0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<freq f="0"/>
+		<path p="./t/42.xpm"/>
+		<hole h="0"/>
+	</object>
+</scene>

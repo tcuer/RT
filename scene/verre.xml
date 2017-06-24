@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<scene>
+	<camera>
+		<pos x="0.0" y="0.0" z="-1000.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<ambient a="0.3"/>
+	</camera>
+	<object>
+		<type name="glass"/>
+		<pos x="38.0" y="0.0" z="1500.0"/>
+		<dir x="0.0" y="1.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="3.0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path t="./t/diamond.xpm"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-95.0" y="95.0" z="100.0"/>
+		<dir x="0.0" y="1.0" z="0.0"/>
+		<color r="255" g="0" b="255"/>
+		<radius r="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<length l="25"/>
+		<path p="./t/metal2.xpm"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-55.0" y="95.0" z="100.0"/>
+		<dir x="0.0" y="1.0" z="0.0"/>
+		<color r="255" g="0" b="255"/>
+		<radius r="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<length l="25"/>
+		<path p="./t/metal2.xpm"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-15.0" y="-3.0" z="100.0"/>
+		<dir x="1.0" y="0.0" z="0.0"/>
+		<color r="255" g="0" b="255"/>
+		<radius r="7"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<length l="30"/>
+		<path p="./t/metal2.xpm"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-112.0" y="20.0" z="100.0"/>
+		<dir x="0.0" y="1.0" z="0.0"/>
+		<color r="255" g="0" b="255"/>
+		<radius r="7"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<length l="30"/>
+		<path p="./t/metal2.xpm"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-75.0" y="30.0" z="100.0"/>
+		<dir x="0.0" y="1.0" z="0.0"/>
+		<color r="255" g="0" b="255"/>
+		<radius r="30"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<length l="40"/>
+		<path p="./t/metal2.xpm"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="-75.0" y="-15.0" z="100.0"/>
+		<dir x="0.0" y="1.0" z="0.0"/>
+		<color r="255" g="0" b="255"/>
+		<radius r="5"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<length l="5"/>
+		<path p="./t/metal2.xpm"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-75.0" y="-60" z="100.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="40"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path p="./t/metal.xpm"/>
+		<path2 p="./t/metaln.xpm"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-90.0" y="-60" z="50.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="5"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-50.0" y="-60" z="50.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="5"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-72.0" y="-48" z="50.0"/>
+		<dir x=".0" y="1.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="20"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<freq r="0"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="45.0" y="-10.0" z="1800.0"/>
+		<dir x="0.0" y="0.0" z="-1.0"/>
+		<color r="255" g="0" b="0"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<hole h="75"/>
+		<path p="./t/term.xpm"/>
+		<freq r="0"/>
+	</object>
+	<light>
+		<type name="spot"/>
+		<pos x="0.0" y="-500.0" z="-500.0"/>
+		<color r="0" g="255" b="255"/>
+		<intensity i="4.0"/>
+	</light>
+	<object>
+		<type name="hyper"/>
+		<pos x="-70.0" y="-15.0" z="50.0"/>
+		<dir x="1.0" y="0.0" z="0.0"/>
+		<color r="255" g="67" b="188"/>
+		<radius r="4.0"/>
+		<simple s="1"/>
+		<length l="14"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<freq r="0"/>
+		<path p="./t/nod.xpm"/>
+	</object>
+</scene>

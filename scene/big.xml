@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<scene>
+	<camera>
+		<pos x="0.0" y="0.0" z="0.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<ambient a="0.3"/>
+	</camera>
+	<light>
+		<type name="spot"/>
+		<pos x="300.0" y="0.0" z="0.0"/>
+		<color r="0" g="0" b="0"/>
+		<intensity i="2.0"/>
+	</light>
+	<object>
+		<type name="plan"/>
+		<pos x="1.0" y="1.0" z="1000.0"/>
+		<dir x="0.0" y="0.0" z="-1.0"/>
+		<color r="200" g="200" b="200"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<hole s="0"/>
+		<freq f="15"/>
+		<path p="t/mtal3.xpm"/>
+		<path2 p="t/nomtal.xpm"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="250.0" y="-50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="200.0" y="50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="255" b="0"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="150.0" y="-50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="0" b="255"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="100.0" y="50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="50.0" y="-50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="255" b="255"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="0.0" y="50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="0" b="255"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-50.0" y="-50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="255" b="0"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-100.0" y="50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="0" b="255"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-150.0" y="-50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="255" b="255"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-200.0" y="50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-250.0" y="-50.0" z="975.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="255" b="0"/>
+		<radius r="50"/>
+		<freq f="15"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="30.0" y="0.0" z="200.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="200" b="200"/>
+		<radius r="25"/>
+		<freq f="0"/>
+		<reflexion r="0.0"/>
+		<refraction r="1.0"/>
+	</object>
+	<object>
+		<type name="sphere"/>
+		<pos x="-30.0" y="0.0" z="200.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="200" g="200" b="0"/>
+		<radius r="25"/>
+		<freq f="0"/>
+		<reflexion r="0.0"/>
+		<refraction r="1.0"/>
+	</object>
+</scene>

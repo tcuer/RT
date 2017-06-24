@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<scene>
+	<camera>
+		<pos x="0.0" y="0.0" z="-10000.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<ambient a="0.3"/>
+	</camera>
+	<light>
+		<type name="spot"/>
+		<pos x="-1300.0" y="1899.0" z="-2000.0"/>
+		<color r="54" g="104" b="216"/>
+		<intensity i="3.0"/>
+	</light>
+	<light>
+		<type name="spot"/>
+		<pos x="-1500.0" y="-1800.0" z="-2000.0"/>
+		<color r="54" g="104" b="216"/>
+		<intensity i="3.0"/>
+	</light>
+	<object>
+		<type name="sphere"/>
+		<pos x="105.0" y="-280.0" z="-1000.0"/>
+		<dir x="0.0" y="0.0" z="0.0"/>
+		<color r="0" g="255" b="0"/>
+		<radius r="370"/>
+		<reflexion r="0.0"/>
+		<refraction r="1.33"/>
+		<freq f="0"/>
+		<path p="./t/bs.xpm"/>
+	</object>
+	<object>
+		<type name="cone"/>
+		<pos x="-1300.0" y="-500.0" z="0.0"/>
+		<dir x="0.0" y="1.0" z="0.0"/>
+		<color r="255" g="67" b="188"/>
+		<radius r="6.0"/>
+		<simple s="0"/>
+		<length l="0"/>
+		<freq f="10"/>
+		<reflexion r="0.0"/>
+		<refraction r="0.0"/>
+		<path p="./t/briq.xpm"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="0.0" y="0.0" z="5000.0"/>
+		<dir x="1.0" y="0.0" z="-1.0"/>
+		<color r="224" g="224" b="224"/>
+		<reflexion r="0"/>
+		<refraction r="0"/>
+		<hole s="1500"/>
+		<freq f="0"/>
+		<path p="./t/bis.xpm"/>
+	</object>
+	<object>
+		<type name="cylinder"/>
+		<pos x="400.0" y="-200.0" z="500.0"/>
+		<dir x="1.0" y="0.4" z="0.0"/>
+		<color r="255" g="0" b="0"/>
+		<radius r="100.0"/>
+		<length l="0"/>
+		<reflexion r="0.0"/>
+		<freq f="0"/>
+		<refraction r="1.0"/>
+		<path p="./t/stone2.xpm"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="2000.0" y="0.0" z="0.0"/>
+		<dir x="-8.0" y="0.0" z="-1.0"/>
+		<color r="224" g="224" b="224"/>
+		<reflexion r="0"/>
+		<refraction r="0"/>
+		<hole s="0"/>
+		<freq f="0"/>
+		<path p="./t/bois.xpm"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="-2000.0" y="0.0" z="0.0"/>
+		<dir x="8.0" y="0.0" z="1.0"/>
+		<color r="224" g="224" b="224"/>
+		<reflexion r="0"/>
+		<refraction r="0"/>
+		<hole s="0"/>
+		<freq f="0"/>
+		<path p="./t/bois.xpm"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="0.0" y="2000.0" z="0.0"/>
+		<dir x="0.0" y="-1.0" z="0.0"/>
+		<color r="224" g="224" b="224"/>
+		<reflexion r="0.9"/>
+		<refraction r="0"/>
+		<hole s="0"/>
+		<freq f="0"/>
+		<path p="./t/is.xpm"/>
+	</object>
+	<object>
+		<type name="plan"/>
+		<pos x="0.0" y="-2000.0" z="0.0"/>
+		<dir x="0.0" y="1.0" z="0.0"/>
+		<color r="224" g="224" b="224"/>
+		<reflexion r="0.9"/>
+		<refraction r="0"/>
+		<hole s="0"/>
+		<freq f="0"/>
+		<path p="./tois.xpm"/>
+	</object>
+</scene>
